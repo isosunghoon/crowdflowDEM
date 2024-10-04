@@ -1,0 +1,16 @@
+{
+    "eye":4,
+    "alpha":1,
+    "beta":1,
+    "will_coef":3e4,
+    "stiffness":1e6,
+    "restitution":0.1,
+    "will_rate":1,
+    "same_penalty":100,
+    "obstacle_advantage":100,
+    "angle":60,
+    "speed_mean":100,
+    "speed_var":10,
+    "s_radius":10,
+    "min_arg":5
+}
