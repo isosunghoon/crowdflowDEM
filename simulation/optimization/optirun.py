@@ -101,7 +101,7 @@ class Obstacle:
 def init():
     # simulation['obstacles'].append(Obstacle([Vec((0,0)),Vec((50,0)),Vec((50,900)),Vec((0,900))]))
     # simulation['obstacles'].append(Obstacle([Vec((350,0)),Vec((400,0)),Vec((400,900)),Vec((350,900))]))
-    simulation['df'] = pd.read_csv('./KOMJ/processed_tracks.csv')
+    simulation['df'] = pd.read_csv('../realworlddata_match/processed_tracks.csv')
     simulation['df'].sort_values(by='Starting Frame', inplace=True)
     simulation['humancount'] = 0
 

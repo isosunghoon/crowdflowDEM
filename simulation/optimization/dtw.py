@@ -28,7 +28,7 @@ def dtw():
                 dtw_distances[person_id] = dtw_distance
         return dtw_distances
 
-    with open(f'./KOMJ/tracks.txt', 'r') as f:
+    with open(f'./tracks.txt', 'r') as f:
         data = f.readlines()
 
     tracks = {}
